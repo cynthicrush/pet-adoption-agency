@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block h1 %}Pets{% endblock %}
+
+{% block content %}
+<section class='pets-list'>
+  {% for pet in pets %}
+    <div class='photo-container'>
+      <img src='{{pet.photo_url}}' alt='{{pet.name}} photo' class='pet-photo'></img>
+      <span class='photo-text'><a href='/{{pet.id}}' class='pet-name'>{{pet.name}} </a>is available!</span>
+    </div>
+  {% endfor %}
+</section>
+<a href='/add' class='add add-a-pet-btn'>Add a Pet</a>
+{% endblock %}
+
