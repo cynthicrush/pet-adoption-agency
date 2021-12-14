@@ -1,0 +1,75 @@
+/* -------MAIN COLOR------- */
+/* rgb(102, 212, 194) */
+*{
+  color: rgb(78, 78, 78);
+  font-family: 'Mochiy Pop One', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+}
+
+div.photo-container {
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  width: 220px;
+  margin-bottom: 20px;
+}
+.pet-photo {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.photo-text {
+  display: block;
+}
+
+.pet-name {
+  color: rgb(102, 212, 194);
+}
+
+.pet-name:hover {
+  color: rgb(62, 131, 119);
+}
+
+/* -------BUTTONS------- */
+
+.add {
+  color: white;
+  font-size: 20px;
+  background-color: rgb(102, 212, 194);
+  border: 1px solid rgb(102, 212, 194);
+  padding: 7px 15px;
+  border-radius: 5px;
+  /* margin-top: 20px; */
+}
+
+.add:hover {
+  color: rgb(102, 212, 194);
+  font-size: 20px;
+  background-color: white;
+  border: 1px solid rgb(102, 212, 194);
+  padding: 7px 15px;
+  border-radius: 5px;
+  /* margin-top: 20px; */
+}
+
+.back {
+  color: rgb(102, 212, 194);
+  font-size: 20px;
+  background-color: white;
+  border: 1px solid rgb(102, 212, 194);
+  padding: 7px 15px;
+  border-radius: 5px;
+  /* margin-top: 20px; */
+}
+
+.back:hover {
+  color: white;
+  font-size: 20px;
+  background-color: rgb(102, 212, 194);
+  border: 1px solid rgb(102, 212, 194);
+  padding: 7px 15px;
+  border-radius: 5px;
+  /* margin-top: 20px; */
+}
